@@ -1,0 +1,212 @@
+main{
+    display: flex;
+    align-items: center;
+    background-color: rgb(119, 23, 23);
+    margin-top: 5%;
+}
+.img{
+    width: 45%;
+    height: max-content;
+    margin-left: 56%;
+    border-radius: 5%;
+}
+p{
+    color: white;
+    font-family: fantasy;
+}
+.aziz{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+.TOP{
+    margin-top: 5%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.ff{
+    width: 5%;
+    height: 65%;
+}
+.gear{
+    display: flex;
+    align-items: center;
+    background-color: rgb(119, 23, 23);
+    margin-top: 5%;
+
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.CP{
+    color: brown;
+}
+@media (max-width :1000px) {
+    .car{
+        width: 400px;
+        height: 300px;
+    }
+    
+}
+.zer{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    align-items: center;
+    border: solid ;
+
+}
+.sound{
+    border-radius: 5%;
+}
+section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.social {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 0 10px;
+    border: #fff solid 2px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.social::before {
+    content: '';
+    background-color: #f0f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+a.social:hover::before {
+    top: 0;
+}
+
+a.social.facebook::before {
+    background-color: #3a5796;
+}
+
+a.social.twitter::before {
+    background-color: #1c9ceb;
+}
+
+a.social.linkedin::before {
+    background-color: #0371ae;
+}
+
+a.social.instagram::before {
+    background-color: #d12c7a;
+}
+
+a.social svg {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s all ease-in-out;
+}
+
+a.social:hover svg {
+    transform: rotate(360deg);
+}
+
+a.social svg path {
+    fill: #383838;
+    transition: 0.5s all ease-in-out;
+}
+
+a.social:hover svg path {
+    fill: #fff;
+}
+.F{
+    background-color: brown;
+}
+.login-box {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .s{
+    width: 1%;
+    height: 1%;
+  }
+  .copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .smoky{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+    
+  }
+  .sm{
+    width: 40%;
+    height: 45%;
+  }
+.text-animation-container {
+    text-align: center;
+}
+
+.text-animation {
+    font-size: 36px;
+    color: #333;
+    opacity: 0; /* Start with the text hidden */
+    transform: translateY(20px); /* Start slightly below the normal position */
+    transition: opacity 1s, transform 1s;
+}
